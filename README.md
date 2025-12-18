@@ -42,6 +42,15 @@ Or install it yourself as:
 $ gem install omniauth-twitter2
 ```
 
+### Using this fork directly
+
+This fork adds email support that may not yet be merged into the upstream gem. To use it directly:
+
+```ruby
+# Gemfile
+gem "omniauth-twitter2", github: "rossshannon/omniauth-twitter2", branch: "main"
+```
+
 ## Usage
 
 ### Rails
